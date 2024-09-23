@@ -1,7 +1,5 @@
 # Deep Reinforcement Learning from Human Preferences
 
-## Refactor
-
 ### Goals 
 
 The goals of the original version of this codebase were to reproduce successful training of DRLHP with both synthetic and human preferences on Pong, Enduro, and a novel moving dot environment, and its API was 
