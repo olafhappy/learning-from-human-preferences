@@ -1,12 +1,5 @@
 # Deep Reinforcement Learning from Human Preferences
 
-
-This code is built on a reproduction of OpenAI and DeepMind's [Deep Reinforcement Learning from Human Preferences](https://blog.openai.com/deep-reinforcement-learning-from-human-preferences/), 
-done by Matthew Rahtz, and has been significantly refactored for easier plug and play use in research applications for the Center for Human Compatible Artificial Intelligence
-at UC Berkeley. The code as written by Matthew Rahtz prior to refactor can be found [here](https://github.com/mrahtz/learning-from-human-preferences). 
-Refactoring work was primarily completed by Cody Wild in Spring 2020. 
-
-
 ## Refactor
 
 ### Goals 
@@ -214,8 +207,3 @@ of features described in the original paper.
   extreme." I wasn't sure how to implement this - at least, I couldn't see a
   way to implement it that would actually affect the gradients - so we just do
   the softmax directly.
-
-
-
-## Code Credits
-All files except HumanPreferencesEnvWrapper were predominantly written by Matthew Rahtz, with some minor changes as part of this refactor. 
